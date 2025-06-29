@@ -1,4 +1,4 @@
-# ART (Apache Superset) Angular Integration Guide
+# ART (ARTV3) Angular Integration Guide
 
 ## Overview
 
@@ -18,7 +18,7 @@ This guide provides step-by-step instructions for integrating ART (Apache Supers
 
 - Angular 15+ application
 - Node.js and npm
-- Access to ART (Apache Superset) instance
+- Access to ART (ARTV3) instance
 - ART administrator provided credentials:
   - Domain URL
   - Guest token
