@@ -8,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ART_EM';
+  dashboardId = 'dashboard-uuid-from-art-admin';
+
 }

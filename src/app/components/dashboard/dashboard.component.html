@@ -1,0 +1,21 @@
+<div class="dashboard-wrapper" [style.height]="height" [style.width]="width">
+    <!-- Loading State -->
+    <div *ngIf="loading" class="dashboard-loading">
+      <div class="spinner"></div>
+      <p>Loading dashboard...</p>
+    </div>
+  
+    <!-- Error State -->
+    <div *ngIf="error" class="dashboard-error">
+      <p>{{ error }}</p>
+      <button (click)="ngOnInit()" class="retry-button">Retry</button>
+    </div>
+  
+    <!-- Dashboard Container -->
+    <div 
+      #dashboardContainer 
+      class="dashboard-container"
+      [style.height]="height"
+      [style.width]="width">
+    </div>
+  </div>
