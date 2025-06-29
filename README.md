@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide provides step-by-step instructions for integrating ART (Apache Superset) dashboards into any Angular application using the Superset Embedded SDK.
+This guide provides step-by-step instructions for integrating ART (ARTV3) dashboards into any Angular application using the Superset Embedded SDK.
 
 ## Table of Contents
 
